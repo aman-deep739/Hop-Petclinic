@@ -4,12 +4,12 @@
 
 ## About
 Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). 
-This is what the End Application would look like.
+This is what the End Application would look like. 
 ![spring-pet-clinic-home-768x343](https://user-images.githubusercontent.com/84190111/127130046-d5eae586-e70e-4f98-85a1-c17106a5816e.png)
 
 
 ## The PIPELINE - Tools Used
-I have created a Continuous Integration and Continuous Delivery Pipeline using the  tools 
+I have created a Continuous Integration and Continuous Delivery Pipeline using the tools 
 
 1. Git - Source Code Management
 2. AWS -  For Jenkins, Nexus, Sonarqube and Dockerhost Servers
@@ -41,6 +41,12 @@ CONTINUOUS INTEGRATION:
     3. Integration Test Job - To do the integration testings.
     4. Sonarqube-Code-Analysis - This job will perform the Code Analysis and publish Result on sonarqube server.
     5. Deploy artifact to Nexus - This job will publish the artifact on Nexus Server.
+
+Sonarqube
+<img width="928" alt="sonar" src="https://user-images.githubusercontent.com/84190111/127200472-38c82984-da40-4e68-b033-b3f962082114.PNG">
+
+Nexus
+<img width="952" alt="Nexus" src="https://user-images.githubusercontent.com/84190111/127200586-0d262793-d451-4f90-b30d-e3bfa5b8f2aa.PNG">
 
 Each job will start only if the previous job was successful.
 
