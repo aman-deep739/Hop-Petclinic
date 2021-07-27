@@ -39,11 +39,11 @@ CONTINUOUS INTEGRATION:
 1. Setup Jenkins, Nexus, Sonarqube on AWS EC2 using shell scripts.(Please find the userdata scripts in the userdata folder).
 2. Do further configuration of Jenkins, Nexus, and Sonarqube servers. Install necessary plugins in Jenkins. Create users in Nexus and Sonarqube. Create repositories in Nexus.
 3. Create Jobs in Jenkins.
-    a. Build Job - This Job will pull the source code from GIT and build it using Maven. It will generate a jar file.
-    b. Test Job - To do unit testing.
-    c. Integration Test Job - To do the integration testings.
-    d. Sonarqube-Code-Analysis - This job will perform the Code Analysis and publish Result on sonarqube server.
-    e. Deploy artifact to Nexus - This job will publish the artifact on Nexus Server.
+    1. Build Job - This Job will pull the source code from GIT and build it using Maven. It will generate a jar file.
+    2. Test Job - To do unit testing.
+    3. Integration Test Job - To do the integration testings.
+    4. Sonarqube-Code-Analysis - This job will perform the Code Analysis and publish Result on sonarqube server.
+    5. Deploy artifact to Nexus - This job will publish the artifact on Nexus Server.
 
 Each job will start only if the previous job was successful.
 
