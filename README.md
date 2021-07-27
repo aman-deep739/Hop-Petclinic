@@ -52,6 +52,10 @@ CONTINUOUS DELIVERY:
 
 NOTE: In its default configuration, Petclinic uses an in-memory database (H2) which gets populated at startup with data. To have persistent data, I have used MySql database. Refer the docker-compose and Dockerfile to setup your Frontend Application and Link it with MySql Database. 
 
+## Future Scopes
 
+![8 1](https://user-images.githubusercontent.com/84190111/127109361-204ec591-bf15-4649-b6a5-15dcbbad1458.png)
 
+![9 1](https://user-images.githubusercontent.com/84190111/127109479-49e2ecd1-92f0-4296-9376-534b39e86f00.png)
 
+## THE END
