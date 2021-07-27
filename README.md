@@ -12,7 +12,8 @@ This is what the End Application would look like.
 In its default configuration, Petclinic uses an in-memory database (H2) which gets populated at startup with data. To have persistent data, I have used MySql database. Refer the docker-compose and Dockerfile to setup your Frontend Application and Link it with MySql Database. 
 
 ## The PIPELINE
-I have created a Continuous Integration and Continuous Delivery Pipeline using the below tools 
+I have created a Continuous Integration and Continuous Delivery Pipeline using the  tools 
+
 Git - Source Code Management
 AWS -  For Jenkins, Nexus, Sonarqube and Dockerhost Servers
 Jenkins - Continuous Integration Tool
