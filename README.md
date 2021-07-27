@@ -8,7 +8,7 @@ This is what the End Application would look like.
 ![2 1](https://user-images.githubusercontent.com/84190111/127105693-fc3ca271-9a1f-48dc-898e-d79564d64231.png)
 
 
-## The PIPELINE
+## The PIPELINE - Tools Used
 I have created a Continuous Integration and Continuous Delivery Pipeline using the  tools 
 
 1. Git - Source Code Management
