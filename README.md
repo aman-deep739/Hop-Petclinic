@@ -7,9 +7,6 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 This is what the End Application would look like.
 ![2 1](https://user-images.githubusercontent.com/84190111/127105693-fc3ca271-9a1f-48dc-898e-d79564d64231.png)
 
-## Database configuration
-
-In its default configuration, Petclinic uses an in-memory database (H2) which gets populated at startup with data. To have persistent data, I have used MySql database. Refer the docker-compose and Dockerfile to setup your Frontend Application and Link it with MySql Database. 
 
 ## The PIPELINE
 I have created a Continuous Integration and Continuous Delivery Pipeline using the  tools 
@@ -53,11 +50,7 @@ CONTINUOUS DELIVERY:
 5. Write Dockerfile and docker-compose files in Docker host.
 6. Create Job in Jenkins to build image and run the docker-compose file. This will bring up the application stack.
 
-## NOTE: 
-
-## Database configuration
-
-In its default configuration, Petclinic uses an in-memory database (H2) which gets populated at startup with data. To have persistent data, I have used MySql database. Refer the docker-compose and Dockerfile to setup your Frontend Application and Link it with MySql Database. 
+NOTE: In its default configuration, Petclinic uses an in-memory database (H2) which gets populated at startup with data. To have persistent data, I have used MySql database. Refer the docker-compose and Dockerfile to setup your Frontend Application and Link it with MySql Database. 
 
 
 
