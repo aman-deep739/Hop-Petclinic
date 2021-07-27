@@ -14,13 +14,13 @@ In its default configuration, Petclinic uses an in-memory database (H2) which ge
 ## The PIPELINE
 I have created a Continuous Integration and Continuous Delivery Pipeline using the  tools 
 
-Git - Source Code Management
-AWS -  For Jenkins, Nexus, Sonarqube and Dockerhost Servers
-Jenkins - Continuous Integration Tool
-Maven - Build Tool
-Nexus - Artifact Repository
-Sonarqube - Code Analysis
-Docker - Containerization
+1. Git - Source Code Management
+2. AWS -  For Jenkins, Nexus, Sonarqube and Dockerhost Servers
+3. Jenkins - Continuous Integration Tool
+4. Maven - Build Tool
+5. Nexus - Artifact Repository
+6. Sonarqube - Code Analysis
+7. Docker - Containerization
 
 ## The PIPELINE - FLOW
 
